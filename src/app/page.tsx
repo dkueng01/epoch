@@ -120,7 +120,7 @@ function EpochTracker() {
           {/* Share Button */}
           <button
             onClick={copyShareLink}
-            className={`h-14 px-6 py-3 border font-mono text-xs uppercase tracking-widest transition-all duration-300 w-full sm:w-auto ${copied
+            className={`h-14 cursor-pointer px-6 py-3 border font-mono text-xs uppercase tracking-widest transition-all duration-300 w-full sm:w-auto ${copied
               ? "border-neon-lime text-neon-lime bg-neon-lime/10"
               : "border-white/20 text-white/60 hover:border-white/60 hover:text-white"
               }`}
