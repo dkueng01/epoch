@@ -113,7 +113,7 @@ function EpochTracker() {
               type="datetime-local"
               value={targetDate}
               onChange={handleDateChange}
-              className="h-14 bg-obsidian-light border border-white/10 px-4 py-3 text-stardust font-mono focus:outline-none focus:border-neon-lime/50 focus:ring-1 focus:ring-neon-lime/50 transition-all rounded-none w-full"
+              className="h-14 cursor-pointer bg-obsidian-light border border-white/10 px-4 py-3 text-stardust font-mono focus:outline-none focus:border-neon-lime/50 focus:ring-1 focus:ring-neon-lime/50 transition-all rounded-none w-full"
             />
           </div>
 
